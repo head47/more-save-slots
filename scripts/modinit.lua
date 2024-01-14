@@ -40,17 +40,6 @@ local function load( modApi, options )
 
         return populateSaveSlotsOld(self)
     end
-
-    -- local i = 1
-    -- while true do
-    --     local n, v = debug.getupvalue(populateSaveSlotsOld, i)
-    --     assert(n)
-    --     if n == "MAX_SAVE_SLOTS" then
-    --         debug.setupvalue(populateSaveSlotsOld, i, 10)
-    --         break
-    --     end
-    --     i = i + 1
-    -- end
 end
 
 return {
