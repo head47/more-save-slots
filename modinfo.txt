@@ -1,0 +1,2 @@
+name = More Save Slots
+author = head47
